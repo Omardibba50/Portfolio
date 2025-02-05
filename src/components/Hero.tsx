@@ -14,7 +14,7 @@ export default function Hero() {
         <p className="text-lg text-gray-500 mb-8">
           🚀 Currently specializing in Frontend (React / Next.js) and Blockchain Development
           <br />
-          ⚡ Blockchain Developer Intern at Aurkei
+          ⚡ Blockchain Developer at Aurkei
         </p>
         <div className="flex justify-center space-x-4">
           <a href="https://github.com/omardibba50" className="bg-gray-800 p-2 rounded-full hover:bg-gray-700 transition-colors">
