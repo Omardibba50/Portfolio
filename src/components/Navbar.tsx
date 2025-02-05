@@ -6,8 +6,8 @@ import { Menu, X } from 'lucide-react'
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'Projects', href: '/projects' },
-  { name: 'Blog', href: '/blog' },
+  { name: 'Projects', href: '/#projects' },
+  
 ]
 
 export default function Navbar() {
@@ -71,6 +71,7 @@ export default function Navbar() {
                       key={item.name}
                       href={item.href}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800"
+                      onClick={() => setMobileMenuOpen(false)}
                     >
                       {item.name}
                     </Link>
@@ -80,8 +81,9 @@ export default function Navbar() {
                   <Link
                     href="#contact"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-800"
+                    onClick={() => setMobileMenuOpen(false)}
                   >
-                    Contact
+                    
                   </Link>
                 </div>
               </div>
