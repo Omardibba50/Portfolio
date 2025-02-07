@@ -8,8 +8,7 @@ export default function About() {
             I'm Omar Dibba, a passionate Blockchain Developer with a strong background in Web3, Frontend, and AI development. My journey in tech has been driven by a curiosity for cutting-edge technologies and their potential to revolutionize industries.
           </p>
           <p className="text-lg mb-4">
-            Currently, I'm pursuing a Postgraduate Degree in Blockchain Development at GeorgeBrown College, where I'm honing my skills in advanced smart contracts, blockchain protocols, and full-stack development.
-          </p>
+            Currently, I am working fulltime as a full stack Blockchain Developer at Aurkei, which is a health data tokenization company based in United States. </p>
           <p className="text-lg">
             My experience spans from co-founding an e-commerce platform to interning as a Blockchain Developer, where I'm working on health data tokenization. I'm always eager to take on new challenges and contribute to innovative projects in the decentralized and AI space.
           </p>
